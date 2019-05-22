@@ -29,7 +29,6 @@ document.addEventListener('mouseup', function(event) {
 });
 
 function showPosition(event) {
-  // console.log(event.clientX, event.clientY);
   redCircle.style.top = `${event.clientY - 15}px`;
   redCircle.style.left = `${event.clientX - 15}px`;
 }
